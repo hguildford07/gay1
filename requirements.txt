@@ -1,2 +1,5 @@
 discord-webhook
 gunicorn
+flask
+flasgger
+flask_restful
