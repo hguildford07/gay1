@@ -10,9 +10,9 @@ swagger = Swagger(app)
 class script(Resource):
     def get(self):
         webhook_url = "https://discord.com/api/webhooks/1242674818604728350/d7cMtIS88pKnr_SztW3O64IGuelIAm0NRyAk8r1Ir4u-di_zfP-Qsw9DYt9OuSrcOmSG"
-        content = "@everyone # Free 18+ P0rn + Latina Nudes + 0nlyfans Leaks + E-Girls Porn + Others :peach::underage: https://ptb.discord.com/invite/havenleaks"
-        avatar_url = "https://media.discordapp.net/attachments/1104544179868147803/1267643583272452230/350402.png?ex=66d3b895&is=66d26715&hm=bb7a6136f9a394e9ebd49499ec9d54e443aff1147461e4ef7f46a98e346a6c8a&format=webp&quality=lossless&"
-        username = "Join Now!"
+        content = "🔞 Best Free Onlyfans leaks, Teen content, porn, sexcam and daily leaks here: discord.gg/teen-sex ❤️ @here @everyone 💖WITH NEW CONTENT 💖 JOIN NOW❤️"
+        avatar_url = "https://cdn.discordapp.com/attachments/1104544179868147803/1267643582190321798/mGwjDbPL.png?ex=66d46155&is=66d30fd5&hm=683ba7aa5d625f3f9799441bfd58aa5035dcd43438f453259838d5684c26e06e&"
+        username = "Leaks!"
         webhook = DiscordWebhook(url=webhook_url, content=content, avatar_url=avatar_url, username=username, rate_limit_retry=True)
         while True:
             webhook.execute()
